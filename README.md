@@ -58,7 +58,7 @@ src/
 │   ├── KpiCards.tsx
 │   ├── DealDetailPanel.tsx
 │   └── ...
-├── lib/             # Utilities and API client
+├── utils/             # Utilities and API client
 │   ├── api.ts       # Backend API calls
 │   ├── types.ts     # TypeScript interfaces
 │   └── format.ts    # Formatting helpers
