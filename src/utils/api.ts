@@ -1,6 +1,6 @@
 import type { Deal, Summary } from "./types";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://pulse-backend-production-6931.up.railway.app";
 
 export async function fetchDeals(): Promise<Deal[]> {
   const res = await fetch(`${API_BASE}/api/deals`);
