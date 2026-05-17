@@ -51,6 +51,7 @@ The production-ready files will be in the `dist/` folder.
  `VITE_API_URL` | Backend API URL | `https://pulse-backend.railway.app` |
 
 ## Project Structure
+```
 src/
 ├── components/       # React components
 │   ├── DealTable.tsx
@@ -64,6 +65,8 @@ src/
 ├── App.tsx          # Root component
 ├── main.tsx         # Entry point
 └── index.css        # Global styles
+```
+
 ## Features
 
 - **Risk-scored deal table** with sortable/filterable columns
