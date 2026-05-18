@@ -1,6 +1,8 @@
 # Pulse Frontend
 
 React + Vite dashboard for visualizing pipeline risk and managing at-risk deals.
+
+
 **Api Documentation** = [pulse_api_docs.pdf](https://github.com/user-attachments/files/27939016/pulse_api_docs.pdf)
 
 ## Tech Stack
