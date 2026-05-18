@@ -14,7 +14,7 @@ export function RepLeaderboard({ leaderboard }: Props) {
         Pipeline at Risk by Rep
       </h2>
       <p className="text-xs text-slate-500 mb-4">
-        Reps with the most $ in red/yellow deals
+        Reps with the most $ in highest risk of revenue loss deals
       </p>
       <div className="space-y-3">
         {leaderboard.slice(0, 8).map((rep) => {
