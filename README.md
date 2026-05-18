@@ -90,3 +90,6 @@ src/
 2. Import project in Vercel
 3. Add environment variable: `VITE_API_URL`
 4. Deploy
+
+**Api Documentation = [pulse_api_docs.pdf](https://github.com/user-attachments/files/27939016/pulse_api_docs.pdf)
+
