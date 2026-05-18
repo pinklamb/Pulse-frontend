@@ -11,10 +11,10 @@ export function RepLeaderboard({ leaderboard }: Props) {
   return (
     <div className="bg-slate-900/40 border border-slate-800 rounded-lg p-5">
       <h2 className="text-sm font-semibold text-slate-200 mb-1">
-        Pipeline at Risk by Rep
+        Forcasted Revenue Leakage
       </h2>
       <p className="text-xs text-slate-500 mb-4">
-        Reps with the most $ in highest risk of revenue loss deals
+        Reps responsible for the most at-risk revenue
       </p>
       <div className="space-y-3">
         {leaderboard.slice(0, 8).map((rep) => {
