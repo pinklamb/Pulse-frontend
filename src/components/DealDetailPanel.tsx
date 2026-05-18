@@ -107,7 +107,7 @@ export function DealDetailPanel({ deal, onClose }: Props) {
             </div>
           </div>
 
-          {/* CTA — the magic moment */}
+          
           <button
             onClick={() => setEmailOpen(true)}
             className="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-md transition-colors"
@@ -115,7 +115,7 @@ export function DealDetailPanel({ deal, onClose }: Props) {
             Draft Re-engagement Email
           </button>
 
-          {/* Debug — _profile ground truth, requested */}
+         
           <div className="mt-4 text-xs text-slate-600 text-center">
             generator profile: {deal._profile}
           </div>
